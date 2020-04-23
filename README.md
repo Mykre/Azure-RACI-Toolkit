@@ -1,9 +1,5 @@
 # Azure RACI Toolkit
 
-## Authors
-* [Justin Stanton](https://www.linkedin.com/in/justin-stanton-6097341/) - Sr Cloud Solution Architect - Microsoft
-* [Matt Felton](https://github.com/mattfeltonma) - Sr Cloud Solution Architect - Microsoft
-
 ## What is a RACI?
 Establishing a good foundation of governance is critical to effectively consuming cloud services. A core component of that governance involves the creation of a Roles Assignment Matrix (RACI). RACI stands for responsible, accountable, consulted, and informed. The matrix contains a listing of tasks which are assigned to functional roles. For each task there is always one accountable party, one or more responsible parties, and optionally consulted or informed parties. Accountable parties are the decision makers and are accountable for the success or failure of the task. Responsible parties have a responsibility in completing the task but are not accountable for the success or failure of the task. Consulted parties may be consulted during a task for best practices or advice but are not responsible or accountable for the success or failure of the task. Informed parties have an interest in whether or not the task is successful but are not directly involved in completion of the task.
 
@@ -36,3 +32,6 @@ This toolkit also includes a set of reference worksheets and scripts to assist i
 | **Service Actions** | All available RBAC actions(non-data) on Azure resources e.g. create virtual machine, read logs|
 | **Data Actions** | All available actions on data e.g. read storage blob|
 | **Powershell** | Source scripts to refresh data and create/manage custom RBAC roles |
+
+## Special Thanks
+To my former peer [Justin Stanton](https://www.linkedin.com/in/justin-stanton-6097341/) for helping me pretty up the look, fill in some gaps in the content, and for his help in building out all the handy PowerShell scripts included in the toolkit.
